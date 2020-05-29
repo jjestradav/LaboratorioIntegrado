@@ -1,0 +1,88 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.laboratorio3"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:4:5-66
+11-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:5:5-30:19
+14        android:allowBackup="true"
+14-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:6:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] /home/jonathan/.gradle/caches/transforms-2/files-2.1/da95e0dd41fd0c634661df2a0f122634/core-1.1.0/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:7:9-43
+18        android:label="@string/app_name"
+18-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:8:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:9:9-54
+20        android:supportsRtl="true"
+20-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:10:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:11:9-40
+23        <activity
+23-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:12:9-20:20
+24            android:name="com.example.laboratorio3.ui.login.LoginActivity"
+24-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:13:13-51
+25            android:label="@string/app_name" >
+25-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:14:13-45
+26            <intent-filter>
+26-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:15:13-19:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:16:17-69
+27-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:16:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:18:17-77
+29-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:18:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity android:name="com.example.laboratorio3.ui.editNota.EditNotaActivity" />
+32-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:21:9-66
+32-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:21:19-63
+33        <activity android:name="com.example.laboratorio3.ui.grupoAlumnos.GrupoAlumnoActivity" />
+33-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:22:9-73
+33-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:22:19-70
+34        <activity android:name="com.example.laboratorio3.ui.grupos.GruposActivity" />
+34-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:23:9-62
+34-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:23:19-59
+35        <activity android:name="com.example.laboratorio3.ui.cursos.CursosActivity" />
+35-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:24:9-62
+35-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:24:19-59
+36        <activity android:name="com.example.laboratorio3.ui.ciclos.CiclosActivity" />
+36-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:25:9-62
+36-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:25:19-59
+37        <activity
+37-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:26:9-29:59
+38            android:name="com.example.laboratorio3.NavDrawerActivity"
+38-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:27:13-46
+39            android:label="@string/title_activity_nav_drawer"
+39-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:28:13-62
+40            android:theme="@style/AppTheme.NoActionBar" />
+40-->/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/AndroidManifest.xml:29:13-56
+41
+42        <provider
+42-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/jonathan/.gradle/caches/transforms-2/files-2.1/090434a1b2305b2572c380a8c896bb3c/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+43            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+43-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/jonathan/.gradle/caches/transforms-2/files-2.1/090434a1b2305b2572c380a8c896bb3c/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+44            android:authorities="com.example.laboratorio3.lifecycle-process"
+44-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/jonathan/.gradle/caches/transforms-2/files-2.1/090434a1b2305b2572c380a8c896bb3c/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+45            android:exported="false"
+45-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/jonathan/.gradle/caches/transforms-2/files-2.1/090434a1b2305b2572c380a8c896bb3c/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+46            android:multiprocess="true" />
+46-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/jonathan/.gradle/caches/transforms-2/files-2.1/090434a1b2305b2572c380a8c896bb3c/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+47    </application>
+48
+49</manifest>
