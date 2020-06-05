@@ -68,7 +68,7 @@ public class CiclosActivity extends AppCompatActivity {
 
         rol=getIntent().getStringExtra("rol");
         username=getIntent().getStringExtra("id");
-        NetworkConnection connection= new NetworkConnection("http://192.168.0.14:9090/Lab1/getCiclos", new AsyncResponse() {
+        NetworkConnection connection= new NetworkConnection("http://192.168.0.13:9090/Lab1/getCiclos", new AsyncResponse() {
             @Override
             public void processFinish(String output) {
                 try {

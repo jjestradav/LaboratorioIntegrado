@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -40,12 +41,13 @@ public class LoginActivity extends AppCompatActivity {
                     JSONObject obj = new JSONObject();
                     obj.put("username", usernameTxt);
                     obj.put("password", passwordTxt);
-                    NetworkConnection connection= new NetworkConnection("http://192.168.0.14:9090/Lab1/login", new AsyncResponse() {
+                    NetworkConnection connection= new NetworkConnection("http://192.168.0.13:9090/Lab1/login", new AsyncResponse() {
                         @Override
                         public void processFinish(String output) {
                             if(!output.isEmpty()){
                                 Intent navActivity = new Intent(LoginActivity.this, NavDrawerActivity.class);
                                 navActivity.putExtra("rol", output);
+                                Log.v("ROL",output);
                                 navActivity.putExtra("id",usernameTxt);
                                 startActivity(navActivity);
                             }

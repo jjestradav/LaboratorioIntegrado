@@ -6,6 +6,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
+import android.util.Log;
 import android.view.View;
 
 import androidx.recyclerview.widget.ItemTouchHelper;
@@ -39,7 +40,7 @@ public class RecyclerItemTouchHelper extends ItemTouchHelper.SimpleCallback {
     @Override
     public int getMovementFlags(RecyclerView recyclerView, RecyclerView.ViewHolder viewHolder) {
         int dragFlags = ItemTouchHelper.UP | ItemTouchHelper.DOWN;
-        int swipeFlags = ItemTouchHelper.START | ItemTouchHelper.END;
+        int swipeFlags =ItemTouchHelper.END;
         return makeMovementFlags(dragFlags, swipeFlags);
     }
 
@@ -53,12 +54,13 @@ public class RecyclerItemTouchHelper extends ItemTouchHelper.SimpleCallback {
     @Override
     public void onSelectedChanged(RecyclerView.ViewHolder viewHolder, int actionState) {
         if (viewHolder != null) {
+            Log.v("LISTENER",""+this.listener.getClass().getSimpleName());
             //check adapter
-//
-//             if (this.listener.getClass().getSimpleName().equals("MatriculaActivity")) {
-//                backgroundViewDelete = ((GrupoAlumnoAdapter.GrupoAlumnoViewHolder) viewHolder).viewBackgroundDelete;
-//                foregroundView = ((MatriculaAdapter.MyViewHolder) viewHolder).viewForeground;
-//            }
+            // if (this.listener.getClass().getSimpleName().equals("ListEstudiantes")) {
+            backgroundViewEdit = ((GrupoAlumnoAdapter.MyViewHolder) viewHolder).viewBackgroundEdit;
+            backgroundViewDelete = ((GrupoAlumnoAdapter.MyViewHolder) viewHolder).viewBackgroundDelete;
+            foregroundView = ((GrupoAlumnoAdapter.MyViewHolder) viewHolder).viewForeground;
+            //   }
             //Selected item
             if (actionState == ItemTouchHelper.ACTION_STATE_DRAG) {
                 //fancy color picked
@@ -120,17 +122,18 @@ public class RecyclerItemTouchHelper extends ItemTouchHelper.SimpleCallback {
     }
 
     private void drawBackground(float dX) {
-        if (this.listener.getClass().getSimpleName().equals("MatriculaActivity")) {
-            backgroundViewDelete.setVisibility(View.VISIBLE);
-        } else {
-            if (dX > 0) {
-                backgroundViewEdit.setVisibility(View.VISIBLE);
-                backgroundViewDelete.setVisibility(View.GONE);
-            } else {
-                backgroundViewDelete.setVisibility(View.VISIBLE);
-                backgroundViewEdit.setVisibility(View.GONE);
-            }
+        // if (this.listener.getClass().getSimpleName().equals("ListEstudiantes")) {
+       // backgroundViewDelete.setVisibility(View.VISIBLE);
+        // } else {
+        if (dX > 0) {
+            backgroundViewEdit.setVisibility(View.VISIBLE);
+            backgroundViewDelete.setVisibility(View.GONE);
         }
+        else{
+            backgroundViewEdit.setVisibility(View.VISIBLE);
+            backgroundViewDelete.setVisibility(View.GONE);
+        }
+        //  }
     }
 
     @Override

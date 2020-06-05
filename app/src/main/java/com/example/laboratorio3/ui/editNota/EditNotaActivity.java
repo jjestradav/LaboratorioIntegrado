@@ -68,7 +68,7 @@ public class EditNotaActivity extends AppCompatActivity {
             obj.put("nota",grupoAlumno.getNota());
             obj.put("alumno", objAlumno);
 
-            String url = "http://192.168.0.14:9090/Lab1/updateNota";
+            String url = "http://192.168.0.13:9090/Lab1/updateNota";
             NetworkConnection connection = new NetworkConnection(url, new AsyncResponse() {
                 @Override
                 public void processFinish(String output) {
@@ -78,7 +78,7 @@ public class EditNotaActivity extends AppCompatActivity {
                     else
                         Toast.makeText(getApplicationContext(), "Ocurrio un error", Toast.LENGTH_LONG).show();
 
-                    Intent grupoAlumnoAcitivity = new Intent(getApplicationContext(), GrupoAlumnoActivity.class);
+                    Intent grupoAlumnoAcitivity = new Intent(EditNotaActivity.this, GrupoAlumnoActivity.class);
                     grupoAlumnoAcitivity.putExtra("grupo",grupo);
                     startActivity(grupoAlumnoAcitivity);
                     finish();

@@ -57,7 +57,7 @@ public class CursosActivity extends AppCompatActivity {
         progressDialog.setCancelable(false);
         progressDialog.show();
         int codigoCiclo=getIntent().getIntExtra("ciclo",-1);
-        String url="http://192.168.0.14:9090/Lab1/getCursos?ciclo="+codigoCiclo+"&role="+this.rol;
+        String url="http://192.168.0.13:9090/Lab1/getCursos?ciclo="+codigoCiclo+"&role="+this.rol;
         if(!rol.equals("superuser"))
                url+="&profe="+this.id;
 

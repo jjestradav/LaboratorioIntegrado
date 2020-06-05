@@ -40,7 +40,8 @@ public class NavDrawerActivity extends AppCompatActivity implements NavigationVi
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-
+        this.rol=getIntent().getStringExtra("rol");
+        this.username=getIntent().getStringExtra("id");
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
         drawer.openDrawer(GravityCompat.START);
@@ -83,6 +84,7 @@ public class NavDrawerActivity extends AppCompatActivity implements NavigationVi
         Log.v("HOLA "+id,"HOLA "+id);
         if(id==R.id.nav_registro){
             Intent intent = new Intent(this, CiclosActivity.class);
+        //    Log.v("ROL",this.rol);
             intent.putExtra("rol",this.rol);
             intent.putExtra("id",this.username);
             startActivity(intent);

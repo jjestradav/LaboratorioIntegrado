@@ -21,6 +21,7 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Ciclos</string>
     <string name="menu_slideshow">Slideshow</string>
-
+    <string name="delete">ELIMINAR</string>
+    <string name="edit">VER</string>
     <string name="home_second">Home Second</string>
 </resources>

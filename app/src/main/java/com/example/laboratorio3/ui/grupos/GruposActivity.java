@@ -55,7 +55,7 @@ public class GruposActivity extends AppCompatActivity {
     private void populateSpinner(){
 
         int codigoCurso=getIntent().getIntExtra("curso",-1);
-        String url="http://192.168.0.14:9090/Lab1/getGrupos?curso="+codigoCurso+"&role="+this.rol;
+        String url="http://192.168.0.13:9090/Lab1/getGrupos?curso="+codigoCurso+"&role="+this.rol;
         if(!this.rol.equals("superuser"))
             url+="&profe="+this.id;
         NetworkConnection connection=new NetworkConnection(url, new AsyncResponse() {
