@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -24,7 +25,7 @@ import org.json.JSONObject;
 
 public class EditNotaActivity extends AppCompatActivity {
 
-    private ImageButton btnEdit;
+    private ImageView btnEdit;
     private TextView cedulaText;
     private TextView nombreText;
     private EditText nota;
@@ -34,7 +35,7 @@ public class EditNotaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
       setContentView(R.layout.activity_edit_nota);
       fillText();
-      btnEdit=(ImageButton)findViewById(R.id.saveBtn);
+      btnEdit=(ImageView) findViewById(R.id.saveBtn);
         btnEdit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

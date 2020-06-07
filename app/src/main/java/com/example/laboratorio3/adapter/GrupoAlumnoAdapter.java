@@ -5,6 +5,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Filter;
 import android.widget.Filterable;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -26,13 +27,13 @@ public class GrupoAlumnoAdapter extends RecyclerView.Adapter<GrupoAlumnoAdapter.
     public class MyViewHolder extends RecyclerView.ViewHolder {
         public TextView title1, title2, description;
         //two layers
-        public RelativeLayout viewForeground, viewBackgroundDelete, viewBackgroundEdit;
+        public LinearLayout viewForeground, viewBackgroundDelete, viewBackgroundEdit;
 
         public MyViewHolder(View view) {
             super(view);
             title1 = view.findViewById(R.id.titleFirstLbl);
             title2 = view.findViewById(R.id.titleSecLbl);
-            description = view.findViewById(R.id.descriptionLbl);
+            //description = view.findViewById(R.id.descriptionLbl);
             viewBackgroundDelete = view.findViewById(R.id.view_background_delete);
             viewBackgroundEdit = view.findViewById(R.id.view_background_edit);
             viewForeground = view.findViewById(R.id.view_foreground);

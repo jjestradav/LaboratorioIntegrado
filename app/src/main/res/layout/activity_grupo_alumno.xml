@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/refreshLayout"
-    tools:context=".ui.grupoAlumnos.GrupoAlumnoActivity">
+    tools:context=".ui.grupoAlumnos.GrupoAlumnoActivity"
+    android:background="@drawable/gradient">
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"

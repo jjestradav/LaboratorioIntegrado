@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Spinner;
 
 import com.example.laboratorio3.R;
@@ -35,7 +36,7 @@ public class CursosActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cursos);
-        Button cursosBtn=(Button) findViewById(R.id.cursosBtn);
+        ImageView cursosBtn=findViewById(R.id.cursosBtn);
         this.rol=getIntent().getStringExtra("rol");
         this.id=getIntent().getStringExtra("id");
        populateSpinner();

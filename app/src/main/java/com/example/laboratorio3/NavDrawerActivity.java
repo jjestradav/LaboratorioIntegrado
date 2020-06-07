@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.Menu;
 
 import com.example.laboratorio3.ui.ciclos.CiclosActivity;
+import com.example.laboratorio3.ui.login.LoginActivity;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
@@ -25,6 +26,7 @@ import androidx.appcompat.widget.Toolbar;
 public class NavDrawerActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener  {
 
     private AppBarConfiguration mAppBarConfiguration;
+    DrawerLayout drawer;
     private String rol;
     private String username;
 
@@ -34,7 +36,7 @@ public class NavDrawerActivity extends AppCompatActivity implements NavigationVi
         setContentView(R.layout.activity_nav_drawer);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
@@ -45,6 +47,7 @@ public class NavDrawerActivity extends AppCompatActivity implements NavigationVi
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
         drawer.openDrawer(GravityCompat.START);
+        drawer.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_OPEN);
         setTitle("Sistema de Matricula");
     }
 
@@ -60,6 +63,13 @@ public class NavDrawerActivity extends AppCompatActivity implements NavigationVi
         }
     }
 
+    @Override
+    public void onResume() {
+
+        super.onResume();
+        drawer.openDrawer(GravityCompat.START);
+        drawer.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_OPEN);
+    }
 
 
     @Override
@@ -71,9 +81,10 @@ public class NavDrawerActivity extends AppCompatActivity implements NavigationVi
 
     @Override
     public boolean onSupportNavigateUp() {
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
-        return NavigationUI.navigateUp(navController, mAppBarConfiguration)
-                || super.onSupportNavigateUp();
+//        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
+//        return NavigationUI.navigateUp(navController, mAppBarConfiguration)
+//                || super.onSupportNavigateUp();
+        return true;
     }
 
 
@@ -89,6 +100,12 @@ public class NavDrawerActivity extends AppCompatActivity implements NavigationVi
             intent.putExtra("id",this.username);
             startActivity(intent);
         }
+        else
+            if(id==R.id.nav_logout){
+                Intent intent = new Intent(this, LoginActivity.class);
+                startActivity(intent);
+                finish();
+            }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

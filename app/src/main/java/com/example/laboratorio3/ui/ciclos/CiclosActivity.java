@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Spinner;
 
@@ -40,7 +41,7 @@ public class CiclosActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ciclos);
-        Button ciclosButton = (Button)findViewById(R.id.ciclosBtn);
+        ImageView ciclosButton = findViewById(R.id.ciclosBtn);
 
         this.populateSpinner();
 

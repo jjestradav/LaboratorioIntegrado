@@ -8,6 +8,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.example.laboratorio3.NavDrawerActivity;
@@ -23,7 +25,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private EditText username;
     private EditText password;
-    private Button loginBtn;
+    private ImageView loginBtn;
     private  Dao dao= Dao.getInstance();
     @Override
     protected void onCreate(Bundle savedInstanceState) {

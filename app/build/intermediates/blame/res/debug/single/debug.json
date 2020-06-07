@@ -8,48 +8,32 @@
         "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/layout/activity_grupo_alumno.xml"
     },
     {
-        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable_side_nav_bar.xml.flat",
-        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/drawable/side_nav_bar.xml"
-    },
-    {
-        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/layout_list_grupo_alumno_row.xml.flat",
-        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/layout/list_grupo_alumno_row.xml"
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable_student.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/drawable/student.png"
     },
     {
         "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/layout_content_nav_drawer.xml.flat",
-        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/layout/content_nav_drawer.xml"
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable_image.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/drawable/image.png"
     },
     {
-        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable_person.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/drawable/person.png"
     },
     {
         "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/layout_activity_edit_nota.xml.flat",
         "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/layout/activity_edit_nota.xml"
     },
     {
-        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/layout_nav_header_nav_drawer.xml.flat",
-        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/layout/nav_header_nav_drawer.xml"
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_background.png"
-    },
-    {
-        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_background.png"
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable_name.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/drawable/name.png"
     },
     {
         "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
@@ -64,16 +48,156 @@
         "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/layout/fragment_slideshow.xml"
     },
     {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/layout_grupoalumno_viewholder.xml.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/layout/grupoalumno_viewholder.xml"
+    },
+    {
         "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher_background.png.flat",
         "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml"
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable_home.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/drawable/home.png"
     },
     {
         "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_delete_white.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_delete_white.png"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/layout_activity_grupos.xml.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/layout/activity_grupos.xml"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_delete_white.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_delete_white.png"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_edit_white.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_edit_white.png"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_edit_white.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-ldpi/ic_edit_white.png"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-v21_ic_menu_camera.xml.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/drawable-v21/ic_menu_camera.xml"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_delete_white.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-hdpi/ic_delete_white.png"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/layout_activity_nav_drawer.xml.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/layout/activity_nav_drawer.xml"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable_key.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/drawable/key.png"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/menu_activity_nav_drawer_drawer.xml.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/menu/activity_nav_drawer_drawer.xml"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/layout_activity_ciclos.xml.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/layout/activity_ciclos.xml"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_delete_white.xml.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_delete_white.xml"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_edit_white.xml.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_edit_white.xml"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable_login.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/drawable/login.png"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_edit_white.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_edit_white.png"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable_side_nav_bar.xml.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/layout_list_grupo_alumno_row.xml.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/layout/list_grupo_alumno_row.xml"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/layout_content_nav_drawer.xml.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/layout/content_nav_drawer.xml"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/layout_nav_header_nav_drawer.xml.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/layout/nav_header_nav_drawer.xml"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_delete_white.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_delete_white.png"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_delete_white.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-mdpi/ic_delete_white.png"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable_logout.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/drawable/logout.png"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_delete_white.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-ldpi/ic_delete_white.png"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml"
     },
     {
         "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/layout_fragment_registro.xml.flat",
@@ -96,36 +220,36 @@
         "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/menu/nav_drawer.xml"
     },
     {
-        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable_next.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/drawable/next.png"
     },
     {
-        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/layout_activity_grupos.xml.flat",
-        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/layout/activity_grupos.xml"
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable_alert.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/drawable/alert.png"
     },
     {
         "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable_save.png.flat",
         "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/drawable/save.png"
     },
     {
-        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_edit_white.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_edit_white.png"
     },
     {
         "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-v21_ic_menu_slideshow.xml.flat",
         "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/drawable-v21/ic_menu_slideshow.xml"
     },
     {
-        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-v21_ic_menu_camera.xml.flat",
-        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/drawable-v21/ic_menu_camera.xml"
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable_exam.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/drawable/exam.png"
     },
     {
-        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable_littleperson.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/drawable/littleperson.png"
     },
     {
-        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
-        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/layout/activity_login.xml"
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_edit_white.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-hdpi/ic_edit_white.png"
     },
     {
         "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -136,20 +260,20 @@
         "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/layout/app_bar_nav_drawer.xml"
     },
     {
-        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable_idlogin.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/drawable/idlogin.png"
     },
     {
-        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable_id.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/drawable/id.png"
+    },
+    {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable_gradient.xml.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/drawable/gradient.xml"
     },
     {
         "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/layout_activity_nav_drawer.xml.flat",
-        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/layout/activity_nav_drawer.xml"
     },
     {
         "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-v21_ic_menu_gallery.xml.flat",
@@ -164,15 +288,15 @@
         "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/layout/fragment_home.xml"
     },
     {
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_edit_white.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/generated/res/pngs/debug/drawable-mdpi/ic_edit_white.png"
+    },
+    {
         "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/layout_activity_cursos.xml.flat",
         "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/layout/activity_cursos.xml"
     },
     {
-        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/menu_activity_nav_drawer_drawer.xml.flat",
-        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/menu/activity_nav_drawer_drawer.xml"
-    },
-    {
-        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/layout_activity_ciclos.xml.flat",
-        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/layout/activity_ciclos.xml"
+        "merged": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/build/intermediates/res/merged/debug/drawable_login1.png.flat",
+        "source": "/home/jonathan/Desktop/Moviles/Lab3-4/Laboratorio3/app/src/main/res/drawable/login1.png"
     }
 ]

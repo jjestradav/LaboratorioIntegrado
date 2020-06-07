@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Spinner;
 
 import com.example.laboratorio3.R;
@@ -37,7 +38,7 @@ public class GruposActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_grupos);
-        Button btnGrupos=(Button)findViewById(R.id.gruposBtn);
+        ImageView btnGrupos=findViewById(R.id.gruposBtn);
         this.rol=getIntent().getStringExtra("rol");
         this.id=getIntent().getStringExtra("id");
         populateSpinner();
